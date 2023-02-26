@@ -26,7 +26,7 @@ def start_pumps_function(duration_sec):
 	GPIO.cleanup()
 
 # function, which calulates the duration for the needed volume
-# input:
+# input: volume
 # output: duration_sec
 def duration_sec_function(volume_ml):
 	#volume_ml = int(input("How many milliliters should be poured? "))
